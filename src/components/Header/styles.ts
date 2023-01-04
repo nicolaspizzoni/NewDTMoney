@@ -1,33 +1,33 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-    background: ${props => props.theme["gray-900"]};
-    padding: 2.5rem 0 7.5rem;
+  background: ${(props) => props.theme['gray-900']};
+  padding: 2.5rem 0 7.5rem;
 `
 
 export const HeaderContent = styled.div`
-    width: 100%;
-    max-width: 1120px;
-    padding: 0 1.5rem;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `
 
 export const NewTransactionButton = styled.button`
-    height: 50px;
-    border: 0;
-    background: ${props => props.theme["green-500"]};
-    color: ${props => props.theme.white};
-    padding: 0 1.25rem;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
+  height: 50px;
+  border: 0;
+  background: ${(props) => props.theme['green-500']};
+  color: ${(props) => props.theme.white};
+  padding: 0 1.25rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
 
-    &:hover {
-        background: ${props => props.theme["green-700"]};
-        transition: background-color 0.2s;
-    }
+  &:hover {
+    background: ${(props) => props.theme['green-700']};
+    transition: background-color 0.2s;
+  }
 `
